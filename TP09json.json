@@ -3,7 +3,7 @@
                 "ID":1,
                 "Nombre":"Frankie",
                 "Apertura":2016,
-                "Ubicacion":[-34.60001, -58.44735],
+                "Ubicacion":[-34.59823, -58.44081],
                 "Duenios":["Mario"],
                 "Logo":"LOGOFRANKIE.PNG",
                 "MenuPrincipal":{
@@ -23,7 +23,7 @@
                 "ID":2,
                 "Nombre":"Burguer",
                 "Apertura":1950,
-                "Ubicacion":[-34.60002, -58.44735],
+                "Ubicacion":[-34.6034091389, -58.3754798815],
                 "Duenios":["Ilan"],
                 "Logo":"LOGOBURGUER.PNG",
                 "MenuPrincipal":{
