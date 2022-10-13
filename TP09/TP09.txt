@@ -1,0 +1,8 @@
+3) Respondé: si tuvieras que mostrar un mapa con los mejores 5 restaurantes valorados
+en una app cercanos a tu ubicación actual, ¿qué campos deberías consultar de tu
+modelo de datos y por qué?
+Justificá todas las decisiones que tuviste/tuvieron en el modelado de la solución a nivel
+datos + la respuesta 3, en un archivo de texto aparte de el o los archivos .json.
+
+Si tuvieramos que mostrar un mapa con los mejores 5 restaurantes valorados en una app cercanos a nuestra ubicación actual, deberiamos hacer un objeto de los restuarates, tal como hicimos en json. Para sacar los mejores deberiamos sacar el promedio de las valoraciones de las reseñas, sumariamos estos campos y los dividiriamos por la cantidad de reseñas evaluadas.
+Hicimos un objeto restaurante debido a que, por medio de un array, ubicados los 5 restaurantes de la zon, contemplando la posibilidad de ampliación del mismo. Por ejemplo, en el caso del menu principal, realizamos una clase para poder contemplar su nombre, costo y tres pasos.
