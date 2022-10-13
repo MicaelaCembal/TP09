@@ -9,17 +9,44 @@ function CargarDatos()
         console.log(data);
 
         data.restaurantes.forEach(unrestaunte =>  {
-            $("#bodyTabla").append("<tr>");
-            $("#bodyTabla").append("<td><img src='/imagenes/" + unrestaunte.Logo + "'></td>"); 
-            $("#bodyTabla").append("<td>" + unrestaunte.ID + "</td>"); 
-            $("#bodyTabla").append("<td>" + unrestaunte.Nombre + "</td>"); 
-            $("#bodyTabla").append("<td>" + unrestaunte.Apertura + "</td>"); 
-            $("#bodyTabla").append("<td>" + unrestaunte.Ubicacion + "</td>"); 
-            $("#bodyTabla").append("<td>" + unrestaunte.Duenios + "</td>"); 
-            $("#bodyTabla").append("<tr>");
+            $("#datos").append("<tr>");
+            $("#datos").append("<td><img class='tamanoimagenes' src='/imagenes/" + unrestaunte.Logo + "'></td>"); 
+            $("#datos").append("<td>" + unrestaunte.ID + "</td>"); 
+            $("#datos").append("<td>" + unrestaunte.Nombre + "</td>"); 
+            $("#datos").append("<td>" + unrestaunte.Apertura + "</td>"); 
+            $("#datos").append("<td>" + unrestaunte.Ubicacion + "</td>"); 
+            $("#datos").append("<td>" + unrestaunte.Duenios + "</td>");
+            $("#datos").append("<td>" + unrestaunte.MenuPrincipal.PrimerPlato + "</td>");
+            $("#datos").append("<td>" + unrestaunte.MenuPrincipal.PlatoPrincipal + "</td>");
+            $("#datos").append("<td>" + unrestaunte.MenuPrincipal.Postre + "</td>");
+            $("#datos").append("<td>" + unrestaunte.MenuPrincipal.Precio + "</td>");
+            $("#datos").append('<td> <button onclick="VerResenas('+unrestaunte.ID+')"> Ver Reseñas </button> </td>');  
+            $("#datos").append("</tr>");
         });
         
         }
      );
+     $('#boton').hide();
 }
 
+function VerResenas(id)
+{
+    $.getJSON('/TP09json.json', function(data1) 
+    {
+        console.log(data1);
+
+    if(unrestaunte.ID==id)
+    {
+    data1.restaurantes.forEach(unrestaunte1 => {
+    $("#datos1").append("<tr>");
+    $("#datos1").append("<td>" + unrestaunte1.NombreUsuario + "</td>"); 
+    $("#datos1").append("<td>" + unrestaunte1.Valoracion + "</td>"); 
+    $("#datos1").append("<td>" + unrestaunte1.Descripcion + "</td>"); 
+    $("#datos1").append("<td>" + unrestaunte1.CantLikes + "</td>"); 
+    $("#datos1").append("</tr>");
+    });
+    } 
+    }
+    
+    ); 
+}

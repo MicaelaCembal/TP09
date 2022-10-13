@@ -3,19 +3,19 @@
                 "ID":1,
                 "Nombre":"Frankie",
                 "Apertura":2016,
-                "Ubicacion":[-34.59823, -58.44081],
+                "Ubicacion":[-34.5823, -58.4401],
                 "Duenios":["Mario"],
-                "Logo":"LOGOFRANKIE.PNG",
+                "Logo":"LOGOFRANKIE.jfif",
                 "MenuPrincipal":{
                     "Nombre":"Buzos",
                     "Precio":900,
-                    "PrimerPlato": "tarta sin tacc", 
-                    "PlatoPrincipal":"burger cheese",
-                    "Postre":"torta"},
+                    "PrimerPlato": "Tarta sin tacc", 
+                    "PlatoPrincipal":"Burger cheese",
+                    "Postre":"Torta"},
                 "Reseñas":[
-                    {"NombreUsuario": "agusangel", "Valoracion":"3", "Descripcion":"Muy buena la comida sin tacc", "CantLikes":50},
-                    {"NombreUsuario": "micacembal", "Valoracion":"1", "Descripcion":"Habia hormigas en la lechuga. ¡Que verguenza! Mala antención del personal", "CantLikes":100}, 
-                    {"NombreUsuario": "ilchuch", "Valoracion":"5", "Descripcion":"Me encanto la hamburguesa y las papas fritas", "CantLikes":1}]
+                    {"NombreUsuario": "Agusangel", "Valoracion":"3", "Descripcion":"Muy buena la comida sin tacc", "CantLikes":50},
+                    {"NombreUsuario": "Micacembal", "Valoracion":"1", "Descripcion":"Habia hormigas en la lechuga. ¡Que verguenza! Mala antención del personal", "CantLikes":100}, 
+                    {"NombreUsuario": "Ilchuch", "Valoracion":"5", "Descripcion":"Me encanto la hamburguesa y las papas fritas", "CantLikes":1}]
             },
 
             {
@@ -23,19 +23,19 @@
                 "ID":2,
                 "Nombre":"Burguer",
                 "Apertura":1950,
-                "Ubicacion":[-34.6034091389, -58.3754798815],
-                "Duenios":["Ilan"],
-                "Logo":"LOGOBURGUER.PNG",
+                "Ubicacion":[-34.556, -58.3324],
+                "Duenios":[" Ilan"],
+                "Logo":"LOGOBURGUER.png",
                 "MenuPrincipal":{
                     "Nombre":"Hamburguesas",
                     "Precio":750,
-                    "PrimerPlato": "nugets", 
-                    "PlatoPrincipal":"papas con cheddar",
-                    "Postre":"muffin con rocklets"},
+                    "PrimerPlato": "Nugets", 
+                    "PlatoPrincipal":"Papas con cheddar",
+                    "Postre":"Muffin   "},
                 "Reseñas":[
-                    {"NombreUsuario": "mica", "Valoracion":"3", "Descripcion":"Muy caras las ensaladas. Mal trato por parte de la supervisora", "CantLikes":50},
-                    {"NombreUsuario": "aguss", "Valoracion":"1", "Descripcion":"No habia torta para cumpleaños sin tacc", "CantLikes":10}, 
-                    {"NombreUsuario": "uriele", "Valoracion":"1", "Descripcion":"Flojo el desayuno", "CantLikes":3}]
+                    {"NombreUsuario": "Mica", "Valoracion":"3", "Descripcion":"Muy caras las ensaladas. Mal trato por parte de la supervisora", "CantLikes":50},
+                    {"NombreUsuario": "Agus", "Valoracion":"1", "Descripcion":"No habia torta para cumpleaños sin tacc", "CantLikes":10}, 
+                    {"NombreUsuario": "Uriel", "Valoracion":"1", "Descripcion":"Flojo el desayuno", "CantLikes":3}]
             },
 
             {
@@ -43,15 +43,15 @@
                 "ID":3,
                 "Nombre":"Punta serrano",
                 "Apertura":1800,
-                "Ubicacion":[-34.60007, -58.44735],
+                "Ubicacion":[-34.607, -58.435],
                 "Duenios":["Juan"],
-                "Logo":"LOGOPUNTASERRANO.PNG",
+                "Logo":"LOGOPUNTASERRANO.jpg",
                 "MenuPrincipal":{
                     "Nombre":"DorjaRock",
                     "Precio":3000,
-                    "PrimerPlato": "tostadas de arroz", 
-                    "PlatoPrincipal":"pizza",
-                    "Postre":"flancito con super ddl"},
+                    "PrimerPlato": "Tostadas de arroz", 
+                    "PlatoPrincipal":"Pizza",
+                    "Postre":"Flancito"},
                 "Reseñas":[
                     {"NombreUsuario": "Tomy", "Valoracion":"2", "Descripcion":"La comida muy rica pero la musica muy fuerte. Salí con dolor de cabeza.", "CantLikes":50},
                     {"NombreUsuario": "Marta", "Valoracion":"5", "Descripcion":"Me saco a bailar un buen mozo. Excelente servicio de Joel.", "CantLikes":2}, 
@@ -63,33 +63,33 @@
                 "ID":4,
                 "Nombre":"Yogurtmania",
                 "Apertura":2019,
-                "Ubicacion":[-34.60017, -58.44785],
-                "Duenios":["Eliana", "Veronica"],
-                "Logo":"LOGOYOGURTMANIA.PNG",
+                "Ubicacion":[-34.6017, -58.785],
+                "Duenios":[" Eli", " Vero"],
+                "Logo":"LOGOYOGURTMANIA.png",
                 "MenuPrincipal":{
                     "Nombre":"Buen dia",
                     "Precio":500,
-                    "PrimerPlato": "donas con crema", 
-                    "PlatoPrincipal":"yogurt helado con rocklets",
-                    "Postre":"yogurt vegano"},
+                    "PrimerPlato": "Donas con crema", 
+                    "PlatoPrincipal":"Yogurt helado ",
+                    "Postre":"Veganushh   "},
                 "Reseñas":[
-                    {"NombreUsuario": "rebecca", "Valoracion":"5", "Descripcion":"Me encontre a una vieja docente. Muy feliz por mi experiencia. Muy complacida.", "CantLikes":5999},
+                    {"NombreUsuario": "Rebecca", "Valoracion":"5", "Descripcion":"Me encontre a una vieja docente. Muy feliz por mi experiencia. Muy complacida.", "CantLikes":5999},
                     {"NombreUsuario": "RobertoJosue", "Valoracion":"5", "Descripcion":"Incumpli mi dieta con algo bueno que realmente valia la pena", "CantLikes":43}, 
-                    {"NombreUsuario": "kevo", "Valoracion":"3", "Descripcion":"No habia baños. Helado muy fresco.", "CantLikes":5}]
+                    {"NombreUsuario": "Kevo", "Valoracion":"3", "Descripcion":"No habia baños. Helado muy fresco.", "CantLikes":5}]
             },
 
             {
                 
                 "ID":5,
-                "Nombre":"Mi Refugio Club House",
+                "Nombre":"Mi Refugio ",
                 "Apertura":1999,
-                "Ubicacion":[-31.73333,-67.98333],
-                "Duenios":["Martin", "Carolina", "Ailen"],
-                "Logo":"LOGOMIREFUGIOCLUBHOUSE.PNG",
+                "Ubicacion":[-31.73,-67.333],
+                "Duenios":["Martin", " Sol", " Ailen"],
+                "Logo":"LOGOMIREFUGIO.png",
                 "MenuPrincipal":{
                     "Nombre":"Shalom",
                     "Precio":2600,
-                    "PrimerPlato": "Filet de merluza con tomate", 
+                    "PrimerPlato": "Filet y tomate", 
                     "PlatoPrincipal":"Ensalada de pepino",
                     "Postre":"Banana"},
                 "Reseñas":[
